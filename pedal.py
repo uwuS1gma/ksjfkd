@@ -4,7 +4,7 @@ from discord.ext import commands
 import re
 
 # --- KONFIGURACJA ---
-TOKEN = 'MTQ3NjE3MzYxNDQzOTk5MzM3Ng.GL9_0x.X75QUm_lnmtrW8zekz16NUvu6gxd1bn13ge26s'
+TOKEN = ''
 ID_KANALU_LEGIT_CHECK = 1474442209444237506 # Wpisz ID swojego kanału
 
 class MyBot(commands.Bot):
@@ -85,5 +85,6 @@ async def on_message(message):
                 await message.delete()
             except:
                 pass
+
 
 bot.run(TOKEN)
