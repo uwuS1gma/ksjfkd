@@ -5,7 +5,7 @@ import re
 
 # --- KONFIGURACJA ---
 TOKEN = ''
-ID_KANALU_LEGIT_CHECK = 1474442209444237506 # Wpisz ID swojego kanału
+ID_KANALU_LEGIT_CHECK =  # Wpisz ID swojego kanału
 
 class MyBot(commands.Bot):
     def __init__(self):
@@ -88,3 +88,4 @@ async def on_message(message):
 
 
 bot.run(TOKEN)
+
